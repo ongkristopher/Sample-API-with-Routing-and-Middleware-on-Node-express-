@@ -2,13 +2,20 @@
   "name": "api_sample",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node server.js"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ongkristopher/Sample-API-with-Routing-on-Node-express.git"
+  },
+  "author": "Kristopher Ong",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ongkristopher/Sample-API-with-Routing-on-Node-express/issues"
+  },
+  "homepage": "https://github.com/ongkristopher/Sample-API-with-Routing-on-Node-express#readme",
   "dependencies": {
     "express": "^4.17.1",
     "winston": "^3.1.0"
