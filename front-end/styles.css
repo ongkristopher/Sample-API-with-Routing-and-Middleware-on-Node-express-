@@ -1,0 +1,38 @@
+.cards {
+    margin: -1rem;
+}
+
+.card {
+    width: auto;
+    float: none;
+    margin: 1rem 10rem;
+    border: 1px solid #d3d3d3;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+    -webkit-box-shadow: 4px -2px 13px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px -2px 13px 0px rgba(0,0,0,0.75);
+    box-shadow: 4px -2px 13px 0px rgba(0,0,0,0.75);
+}
+
+.title {
+  font-family: 'Alata', sans-serif;
+}
+
+.body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+@supports (display: grid) {
+    .cards {
+        margin: 0;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 1rem;
+    }
+
+
+}
