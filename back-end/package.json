@@ -18,6 +18,6 @@
   "homepage": "https://github.com/ongkristopher/Sample-API-with-Routing-on-Node-express#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "winston": "^3.1.0"
+    "nodemon": "latest"
   }
 }

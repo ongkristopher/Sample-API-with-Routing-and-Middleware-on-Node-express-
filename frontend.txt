@@ -1,0 +1,9 @@
+1. create index.html
+2. create script.js
+3. create styles.css
+4. link stylesheet of font and styles.css to index.html
+5. link script.js to index.html
+6. create divs
+7. style divs
+8. create ajax request to backend
+9. open on browser

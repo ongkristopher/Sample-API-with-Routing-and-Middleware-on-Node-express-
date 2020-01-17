@@ -1,0 +1,9 @@
+1. setup node environment.
+2. create /api
+3. npm i express
+4. npm i nodemon
+5. create config.js
+6. create server.js
+7. create routes.js
+8. create articles.js
+9. run server
